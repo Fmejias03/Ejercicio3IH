@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.author {
+    font-style: italic;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.left img, .right img {
+    width: 100%;
+}
+
+.points {
+    background-color: pink;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
